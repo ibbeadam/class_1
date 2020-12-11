@@ -313,7 +313,7 @@ body {
 #contact a img:hover {
     background-color: #ffffff;
     transition: 0.9s ease-in-out;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .c_form {
