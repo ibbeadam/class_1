@@ -16,12 +16,13 @@
     <div id="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
-    <div id="about">
+    <div id="services">
+        <h1>Services</h1>
         <div class="html_prog">
             <h1>HTML</h1>
             <p>We provide Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore</p>
@@ -49,17 +50,38 @@
         </div>
     </div>
     <div id="projects">
+        <h1>Projects</h1>
         <div class="websites">
-            <h1>Websites</h1>
+            <h2>Websites</h2>
         </div>
         <div class="webapps">
-            <h1>Web Applications</h1>
+            <h2>Web Applications</h2>
         </div>
         <div class="database">
-            <h1>Database Management</h1>
+            <h2>Database Management</h2>
         </div>
     </div>
-    
+    <div id="contact">
+        <h1>Contact</h1>
+        <form action="index.html" method="GET">
+            <label for="First_Name">First Name</label><br>
+            <input type="text" id="First_Name" name="First_Name"><br>
+            <label for="Last_Name">Last Name</label><br>
+            <input type="text" id="Last_Name" name="Last_Name"><br>
+            <label for="E-mail">E-mail address</label><br>
+            <input type="text" id="E-mail" name="E-mail"><br>
+            <label for="Message">Message</label><br>
+            <textarea id="Message" name="Message" rows="10" cols="60"></textarea><br><br>
+            <button>Send Message</button><br>
+        </form>
+    </div>
+    <footer>
+        <a href="#"><img src="facebook.png" alt="facebook"></a>
+        <a href="#"><img src="twitter.png" alt="twitter"></a>
+        <a href="#"><img src="instagram.png" alt="instagram"></a>
+        <a href="#"><img src="linkedin.png" alt="inkedin"></a>
+        <span class="copyright">Copy rights | 2020</span>
+    </footer>
 
 </body>
 </html>
