@@ -313,6 +313,7 @@ body {
 #contact a img:hover {
     background-color: #ffffff;
     transition: 0.9s ease-in-out;
+    border-radius: 5px;
 }
 
 .c_form {
@@ -353,7 +354,7 @@ body {
 }
 
 .c_form .btn:hover {
-    background-color: #85929E;
+    background-color: black;
     color: #ffffff;
     cursor: pointer;
     transition: 0.9s ease-in-out;
