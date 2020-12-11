@@ -8,3 +8,39 @@ body {
     font-family: sans-serif;
     background-color: gray;
 }
+
+#top_banner {
+    background-image: url(topbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    line-height: 48px;
+}
+
+#top_banner h1 {
+    font-size: 36px;
+    padding-top: 40vh; 
+}
+
+.intro {
+    padding-left: 15%; 
+}
+
+.intro a {
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+}
+
+.intro a:hover {
+    background-color: #FFB833;
+}
+
+.my_name {
+    color: orange;
+}
+
