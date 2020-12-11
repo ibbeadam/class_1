@@ -6,7 +6,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: gray;
+    background-color: #ffffff;
 }
 
 #top_banner {
@@ -31,16 +31,358 @@ body {
 .intro a {
     text-decoration: none;
     font-size: 25px;
-    border: 1px solid black;
+    border: 1px solid #ffffff;
     padding: 10px;
-    color: black;
+    color:#ffffff;
+    transition: 0.8s ease;
 }
 
 .intro a:hover {
     background-color: #FFB833;
+    border-radius: 20px;
+    color: #030303;
+    border: none;
+    transition: 0.8s ease;
 }
 
 .my_name {
-    color: orange;
+    color: #FFB833;
+}
+
+#navbar {
+    background-color: #2703A0;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 5px 5px #2C3E50;
+    width: 100%;
+    height: 60px;
+}
+
+#navbar ul {
+    display: inline;
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 20px;
+    text-align: center;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+#navbar ul li a {
+    display: inline-block;
+    width: 5%;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #FFB833;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+    
+}
+
+#navbar ul li a:hover {
+    color: #030303;
+    transition: 0.3s ease-in-out;
+      
+}
+
+.service_headding {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.html_prog {
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.html_prog h1 {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 38px;
+}
+
+.html_prog p {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 32px;
+}
+
+.html_prog img {
+    height: 80vh;
+    float: right;
+}
+
+.css_prog {
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+    background-color: #EAECEE;
+}
+.css_prog h1 {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 38px;
+}
+
+.css_prog p {
+    text-align: justify;
+    margin-right: 50px;
+    font-size: 32px;
+    
+}
+.css_prog img {
+    height: 80vh;
+    float: left;
+}
+
+
+.js_prog {
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.js_prog h1 {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 38px;
+}
+
+.js_prog p {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 32px;
+}
+
+.js_prog img {
+    height: 70vh;
+    float: right;
+}
+.php_prog {
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+    background-color: #EAECEE;
+}
+.php_prog h1 {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 38px;
+}
+
+.php_prog p {
+    text-align: justify;
+    margin-right: 50px;
+    font-size: 32px;
+    
+}
+.php_prog img {
+    height: 80vh;
+    float: left;
+}
+
+.mysql_prog {
+    display: inline-block;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+.mysql_prog h1 {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 38px;
+}
+
+.mysql_prog p {
+    text-align: left;
+    margin-left: 50px;
+    font-size: 32px;
+}
+
+.mysql_prog img {
+    height: 70vh;
+    float: right;
+}
+#projects {
+    height: 100vh;
+    width: 100%;
+    background-color: #F2F4F4;
+}
+
+.projkt {
+    display: flex;
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    justify-content: center;
+}
+
+#projects h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 20px;
+}
+
+.websites {
+    text-align: center;
+    border: 2px solid #030300;
+    height: 300px;
+    width: 300px;
+    padding: 140px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 0.6s ease-in-out;
+}
+
+.webapps {
+    text-align: center;
+    border: 2px solid #030300;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    padding: 140px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 0.6s ease-in-out;
+}
+
+.database {
+    text-align: center;
+    border: 2px solid #030300;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    padding: 140px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 0.6s ease-in-out;
+}
+
+.websites:hover, .webapps:hover, .database:hover {
+    background-color: #808B96;
+    color: #ffffff;
+    transition: 0.6s ease-in-out;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#contact {
+    display: block;
+    height: 100vh;
+    background-color: #212F3D;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+#contact h1 {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+#contact a img {
+    display: flex;
+    color: #ffffff;
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-right: 10px;
+    background-color: #212F3D;
+    transition: 0.9s ease-in-out;
+}
+
+#contact a img:hover {
+    background-color: #ffffff;
+    transition: 0.9s ease-in-out;
+}
+
+.c_form {
+    display: inline;
+    width: 100%;
+    justify-content: center;
+}
+
+.c_form label {
+    margin-left: 35%;
+    display: inline;
+    color: #ffffff;
+}
+
+.c_form input {
+    width: 440px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35%;
+    
+}
+.c_form textarea {
+    display: inline;
+    resize: none;
+    margin-left: 35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.c_form .btn {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 0px;
+    border: none;
+    transition: 0.9s ease-in-out;
+}
+
+.c_form .btn:hover {
+    background-color: #85929E;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.9s ease-in-out;
+    border-radius: 10px;
+    border: none;
+}
+
+footer {
+    
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    display: inline-flex;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+footer a img {
+    height: 40px;
+    width: 40px;
+}
+
+footer span {
+    font-size: 20px;
+    margin-top: 50px;
 }
 
