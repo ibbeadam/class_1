@@ -62,14 +62,14 @@ body {
     display: inline;
     list-style: none;
     text-align: center;
-    padding: 30px;
+    padding: 0px;
     margin-top: 20px;
     align-items: center;
 }
 
 #navbar ul li {
     display: inline;
-    margin: 20px;
+    margin: 0px;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
@@ -235,7 +235,7 @@ body {
 
 .projkt {
     display: flex;
-    margin: 100px 0px 0px 0px;
+    margin-top: 50px;
     width: 100%;
     justify-content: center;
 }
@@ -577,19 +577,15 @@ footer span {
         align-items: center;
         margin-top: 30px;
         padding-bottom: 10px;
-        margin-left: 50%;
+        margin: 0%;
     }
 
     .websites {
         display: block;
         position: relative;
-        text-align: center;
-        border: 2px solid #030300;
         height: 160px;
         width: 160px;
         padding: 50px 0px 0px 0px;
-        border-radius: 50px;
-        transition: 0.6s ease-in-out;
         justify-content: center;
         align-items: center;
         
@@ -598,28 +594,24 @@ footer span {
     .webapps {
         display: block;
         position: relative;
-        text-align: center;
-        border: 2px solid #030300;
         height: 160px;
         width: 160px;
         padding: 50px 0px 0px 0px;
-        border-radius: 50px;
-        transition: 0.6s ease-in-out;
         margin-left: 0px;
+        align-items: center;
+        justify-content: center;
         
     }
 
     .database {
         display: block;
         position: relative;
-        text-align: center;
-        border: 2px solid #030300;
         height: 160px;
         width: 160px;
         padding: 50px 0px 0px 0px;
-        border-radius: 50px;
-        transition: 0.6s ease-in-out;
         margin-left: 0px;
+        align-items: center;
+        justify-content: center;
     }
 
     #contact a img {
