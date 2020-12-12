@@ -339,6 +339,8 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 35%;
+    border: none;
+    background-color: #85929E;
     
 }
 .c_form textarea {
@@ -347,6 +349,9 @@ body {
     margin-left: 35%;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: none;
+    background-color: #85929E;
+    
 }
 
 .c_form .btn {
@@ -359,7 +364,7 @@ body {
 }
 
 .c_form .btn:hover {
-    background-color: #85929E;
+    background-color: #02366B;
     color: #ffffff;
     cursor: pointer;
     transition: 0.9s ease-in-out;
@@ -402,7 +407,7 @@ footer span {
 
 /* Mobile responsive media query*/
 
-@media screen and (max-width: 512px){
+@media screen and (max-width: 758px){
     * {
         margin: 0;
     }
@@ -414,9 +419,11 @@ footer span {
 
     #top_banner {
         display: block;
-        
-       
+        width: 100%;
+        height: auto;
     }
+
+    
 
     #navbar {
         display: inline-block;
@@ -461,6 +468,7 @@ footer span {
     .html_prog p {
         text-align: left;
         font-size: 32px;
+        margin-left: 0px;
     }
     
     .html_prog img {
@@ -483,6 +491,7 @@ footer span {
     .css_prog p {
         text-align: left;
         font-size: 32px;
+        margin-right: 0px;
     }
     
     .css_prog img {
@@ -505,6 +514,7 @@ footer span {
     .js_prog p {
         text-align: left;
         font-size: 32px;
+        margin-left: 0px;
     }
     
     .js_prog img {
@@ -527,6 +537,7 @@ footer span {
     .php_prog p {
         text-align: left;
         font-size: 32px;
+        margin-right: 0px;
     }
     
     .php_prog img {
@@ -549,6 +560,7 @@ footer span {
     .mysql_prog p {
         text-align: left;
         font-size: 32px;
+        margin-left: 0px;
     }
     
     .mysql_prog img {
@@ -577,7 +589,8 @@ footer span {
         align-items: center;
         margin-top: 30px;
         padding-bottom: 10px;
-        margin: 0%;
+
+        
     }
 
     .websites {
