@@ -238,12 +238,14 @@ body {
     margin-top: 50px;
     width: 100%;
     justify-content: center;
+    
 }
 
 #projects h1 {
     text-align: center;
     text-decoration: underline;
     padding-top: 20px;
+    
 }
 
 .websites {
@@ -254,6 +256,7 @@ body {
     padding: 140px 0px 0px 0px;
     border-radius: 50px;
     transition: 0.6s ease-in-out;
+    
 }
 
 .webapps {
@@ -265,6 +268,7 @@ body {
     padding: 140px 0px 0px 0px;
     border-radius: 50px;
     transition: 0.6s ease-in-out;
+    
 }
 
 .database {
@@ -276,6 +280,7 @@ body {
     padding: 140px 0px 0px 0px;
     border-radius: 50px;
     transition: 0.6s ease-in-out;
+    
 }
 
 .websites:hover, .webapps:hover, .database:hover {
