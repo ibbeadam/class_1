@@ -50,10 +50,10 @@ body {
 }
 
 #navbar {
-    background-color: #2703A0;
+    background-color: #2C3E50;
     position: sticky;
     top: 0px;
-    box-shadow: 0px 5px 5px #2C3E50;
+    box-shadow: 0px 5px 5px #030303;
     width: 100%;
     height: 60px;
 }
@@ -64,14 +64,16 @@ body {
     text-align: center;
     padding: 30px;
     margin-top: 20px;
+    align-items: center;
 }
 
 #navbar ul li {
     display: inline;
     margin: 20px;
     text-align: center;
-    padding-left: 30px;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 10px;
+
 }
 
 #navbar ul li a {
@@ -81,13 +83,15 @@ body {
     text-decoration: none;
     color: #FFB833;
     font-size: 20px;
-    transition: 0.3s ease-in-out;
+    transition: 0.8s ease-in-out;
+    
     
 }
 
 #navbar ul li a:hover {
     color: #030303;
-    transition: 0.3s ease-in-out;
+    transition: 0.8s ease-in-out;
+    transform: scale(1.2);
       
 }
 
@@ -285,6 +289,7 @@ body {
 
 #contact {
     display: block;
+    position: relative;
     height: 100vh;
     background-color: #212F3D;
     justify-content: center;
@@ -354,7 +359,7 @@ body {
 }
 
 .c_form .btn:hover {
-    background-color: black;
+    background-color: #85929E;
     color: #ffffff;
     cursor: pointer;
     transition: 0.9s ease-in-out;
@@ -363,7 +368,7 @@ body {
 }
 
 footer {
-    
+    background-color: #0303;
     left: 0;
     bottom: 0;
     height: 150px;
@@ -380,6 +385,14 @@ footer a {
 footer a img {
     height: 40px;
     width: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.8s ease-in-out;
+}
+
+footer a img:hover {
+    transform: scale(1.5);
+    transition: 0.8s ease-in-out;
 }
 
 footer span {
@@ -387,3 +400,230 @@ footer span {
     margin-top: 50px;
 }
 
+
+
+@media screen and (max-width: 512px){
+    * {
+        margin: 0;
+    }
+
+    body {
+        display: block;
+        
+    }
+
+    #navbar {
+        display: inline-block;
+        height: 200px;
+        position: relative;
+        
+    }
+    #navbar ul li a, #navbar:active ul li a {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+       
+
+    }
+
+    #services {
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+
+    .html_prog {
+        display: block;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+    
+    
+    .html_prog h1 {
+        text-align: center;
+        font-size: 38px;
+    }
+    
+    .html_prog p {
+        text-align: left;
+        font-size: 32px;
+    }
+    
+    .html_prog img {
+        height: auto;
+        width: 100%;
+    }
+    .css_prog {
+        display: block;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+    
+    
+    .css_prog h1 {
+        text-align: center;
+        font-size: 38px;
+    }
+    
+    .css_prog p {
+        text-align: left;
+        font-size: 32px;
+    }
+    
+    .css_prog img {
+        height: auto;
+        width: 100%;
+    }
+    .js_prog {
+        display: block;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+    
+    
+    .js_prog h1 {
+        text-align: center;
+        font-size: 38px;
+    }
+    
+    .js_prog p {
+        text-align: left;
+        font-size: 32px;
+    }
+    
+    .js_prog img {
+        height: auto;
+        width: 100%;
+    }
+    .php_prog {
+        display: block;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+    
+    
+    .php_prog h1 {
+        text-align: center;
+        font-size: 38px;
+    }
+    
+    .php_prog p {
+        text-align: left;
+        font-size: 32px;
+    }
+    
+    .php_prog img {
+        height: auto;
+        width: 100%;
+    }
+    .mysql_prog {
+        display: block;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+    
+    
+    .mysql_prog h1 {
+        text-align: center;
+        font-size: 38px;
+    }
+    
+    .mysql_prog p {
+        text-align: left;
+        font-size: 32px;
+    }
+    
+    .mysql_prog img {
+        height: auto;
+        width: 100%;
+    }
+
+    #projects {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        margin: 0px;
+        text-align: center;
+        align-items: center;
+        
+    }
+
+    .projkt {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        padding-bottom: 10px;
+        margin-left: 50%;
+    }
+
+    .websites {
+        display: block;
+        position: relative;
+        text-align: center;
+        border: 2px solid #030300;
+        height: 160px;
+        width: 160px;
+        padding: 50px 0px 0px 0px;
+        border-radius: 50px;
+        transition: 0.6s ease-in-out;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .webapps {
+        display: block;
+        position: relative;
+        text-align: center;
+        border: 2px solid #030300;
+        height: 160px;
+        width: 160px;
+        padding: 50px 0px 0px 0px;
+        border-radius: 50px;
+        transition: 0.6s ease-in-out;
+        margin-left: 0px;
+        
+    }
+
+    .database {
+        display: block;
+        position: relative;
+        text-align: center;
+        border: 2px solid #030300;
+        height: 160px;
+        width: 160px;
+        padding: 50px 0px 0px 0px;
+        border-radius: 50px;
+        transition: 0.6s ease-in-out;
+        margin-left: 0px;
+    }
+
+    #contact a img {
+        display: block;
+        position: relative;
+        width: 50px;
+        height: 50px;
+      
+    }
+
+
+   
+}
