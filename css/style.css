@@ -7,6 +7,7 @@
 body {
     font-family: sans-serif;
     background-color: #ffffff;
+    scroll-behavior: smooth;
 }
 
 #top_banner {
@@ -473,6 +474,7 @@ footer span {
         text-align: center;
         align-items: center;
     }
+
 
     .html_prog {
         display: block;
