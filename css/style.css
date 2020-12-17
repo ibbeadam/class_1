@@ -96,6 +96,13 @@ body {
       
 }
 
+#services {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+
 .service_headding {
     margin-top: 50px;
     text-align: center;
@@ -331,10 +338,11 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    justify-items: center;
+    align-items: center;
     
 }
+
+
 .c_form {
     padding: 20px;
     width: 100%;
@@ -343,16 +351,12 @@ form {
 }
 
 .c_form label {
-    
-    
     color: #ffffff;
 }
 
 .c_form input {
     width: 440px;
     height: 30px;
-   
-    
     border: none;
     background-color: #85929E;
     
@@ -381,6 +385,7 @@ form {
     transition: 0.9s ease-in-out;
     border-radius: 10px;
     border: none;
+    box-shadow: 1px 1px 8px 1px #030300;
 }
 
 footer {
@@ -468,13 +473,7 @@ footer span {
        
 
     }
-
-    #services {
-        display: block;
-        text-align: center;
-        align-items: center;
-    }
-
+    
 
     .html_prog {
         display: block;
