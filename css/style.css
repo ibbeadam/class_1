@@ -318,7 +318,7 @@ body {
     color: #ffffff;
 }
 
-.stick_up a img {
+#stick_up a img {
     display: inline-flex;
     color: #ffffff;
     width: 50px;
@@ -330,7 +330,8 @@ body {
     bottom: 130px;
 }
 
-.stick_up a img:hover {
+
+#stick_up a img:hover {
     background-color: #ffffff;
     transition: 0.9s ease-in-out;
     border-radius: 10px;
